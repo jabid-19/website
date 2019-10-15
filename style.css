@@ -187,3 +187,12 @@ footer{
   #myBtn:hover {
     background-color: #555;
   }
+
+@media screen and (max-width: 500px) /* Mobile */ {
+    .plane{
+        position: relative;
+        height: 85px;
+        top: 30%;
+    }
+
+}
