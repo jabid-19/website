@@ -1,9 +1,11 @@
 body{
     background-color: rgba(255, 255, 255, 0.815);
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 html{
     overflow: visible;
+    scroll-behavior: smooth;
 }
 
 
@@ -64,7 +66,7 @@ p{
     background-color: rgba(0, 162, 255, 0.301);
 }
 .card-header{
-    background-color: rgba(63, 189, 189, 0.596);
+    background-color: #7ac4f5;
 }
 .card{
     margin-top: 25px;
@@ -161,3 +163,24 @@ footer{
     color:#444;
     color:rgba(0, 0, 0, 0.4);
 }
+
+/* top button */
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: rgb(94, 193, 240);
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+  #myBtn:hover {
+    background-color: #555;
+  }
