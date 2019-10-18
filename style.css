@@ -75,6 +75,9 @@ p{
     margin-top: 25px;
     border-radius: 20px;
 }
+.card-body{
+    background-color: #feffff71;
+}
 .animation{
     position: relative;
     overflow: hidden;
@@ -85,9 +88,8 @@ p{
     top: 30%;
 }
 footer{
-    height: 20px;
-    background-color: rgba(63, 189, 189, 0.596);
-    margin-top: 20px;
+    background-color: #6bc1e2;
+    margin-top: 40px;
 }
 
 .skillsection{
@@ -198,4 +200,9 @@ footer{
         font-size: 3.2vw;
     }
 
+}
+#fh1{
+    text-align: center;
+    margin-bottom: 40px;
+    color: rgb(255, 255, 255);
 }
