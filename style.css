@@ -59,12 +59,13 @@ ul {
 #section02{
     text-align: center;
 }
-h1{
+h2{
     font-family: Comic Sans Ms;
 }
 p{
     font-family: Candara;
     line-height: 30px;
+    color: rgb(80, 78, 78);
 }
 .btn-light{
     background-color: transparent;
