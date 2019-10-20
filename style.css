@@ -99,7 +99,7 @@ footer{
 
 .skillsection{
     margin-top: 45px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .skillbar {
@@ -210,4 +210,14 @@ footer{
     text-align: center;
     margin-bottom: 40px;
     color: rgb(255, 255, 255);
+}
+#cv{
+    text-align: center;
+    margin-bottom: 80px;
+}
+.btn-outline-info{
+    height: 50px;
+    width: 200px;
+    font-size: 23px;
+    background-color: transparent   ;
 }
