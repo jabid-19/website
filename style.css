@@ -14,13 +14,7 @@ html {
 }
 
 
-.cimg {
-    position: relative;
-    width: 100vw;
-    margin: 0 auto;
-    margin-top: -1vh;
-    /* margin-left: 0px; */
-}
+
 .top {
     position: relative;
     margin: 0 auto;
@@ -33,7 +27,13 @@ html {
     color: rgb(124, 120, 120);
     background-color: RGB(107, 193, 226);
 }
-
+.cimg {
+    position: relative;
+    width: 100vw;
+    margin: 0 auto;
+    margin-top: -1vh;
+    /* margin-left: 0px; */
+}
 
 
 .id {
