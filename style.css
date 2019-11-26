@@ -61,8 +61,8 @@ ul {
 
 .about {
     position: relative;
-    bottom: 150px;
-    margin-top: 20vh;
+    bottom: 10px;
+    /* margin-top: 15vh; */
 }
 
 #about {
@@ -73,7 +73,7 @@ ul {
 
 .con {
     position: relative;
-    bottom: 100px;
+    bottom: 10px;
 }
 
 .skillsection {
