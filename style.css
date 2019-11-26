@@ -1,21 +1,30 @@
-body{
+body {
     background-color: rgba(255, 255, 255, 0.815);
     overflow-x: hidden;
 }
-html{
+
+html {
     overflow-x: hidden;
     scroll-behavior: smooth;
 }
+
 ::-webkit-scrollbar {
     width: 0px;
     background: transparent;
 }
 
 
-.top{
+.cimg {
     position: relative;
-    margin:0 auto;
-    height:40vh;
+    width: 100vw;
+    margin: 0 auto;
+    margin-top: -1vh;
+    /* margin-left: 0px; */
+}
+.top {
+    position: relative;
+    margin: 0 auto;
+    height: 40vh;
     width: 100vw;
     display: grid;
     justify-content: center;
@@ -24,157 +33,187 @@ html{
     color: rgb(124, 120, 120);
     background-color: RGB(107, 193, 226);
 }
-.id{
+
+
+
+.id {
     font-family: cursive;
     font-size: 2.5vw;
 }
-.cimg{
-    position: absolute;
-    width: 100vw;
-    margin-top: -5px;
-    margin-left: 0px;
-}
-.pimg{
+
+
+
+.pimg {
     position: relative;
     height: 110px;
     padding-top: 10px;
 }
 
-.name{
+.name {
     color: rgb(250, 243, 243);
     font-size: 60px;
     padding-left: 15px;
 }
+
 ul {
     list-style-type: none;
 }
-.about{ 
-    margin-top: 24vw;
+
+.about {
+    position: relative;
+    bottom: 150px;
+    margin-top: 20vh;
 }
-#about{
+
+#about {
     background-color: rgba(231, 229, 224, 0.027);
     padding: 7px;
     font-size: 17px;
 }
-#section02{
+
+.con {
+    position: relative;
+    bottom: 100px;
+}
+
+.skillsection {
+    position: relative;
+    bottom: 10px;
+}
+
+#section02 {
     text-align: center;
 }
-h2{
+
+h2 {
     font-family: Comic Sans Ms;
 }
-p{
+
+p {
     font-family: Candara;
     line-height: 30px;
     color: rgb(80, 78, 78);
 }
-.btn-light{
+
+.btn-light {
     background-color: transparent;
 }
-.btn-light:hover{
+
+.btn-light:hover {
     background-color: rgba(0, 162, 255, 0.301);
 }
-.card-header{
+
+.card-header {
     background-color: #7ac4f5;
 }
-.card{
+
+.card {
     margin-top: 25px;
     border-radius: 20px;
 }
-.card-body{
+
+.card-body {
     background-color: #feffff71;
 }
-.animation{
+
+.animation {
     position: relative;
     overflow: hidden;
 }
-.plane{
+
+.plane {
     position: relative;
     height: 105px;
     top: 30%;
 }
-footer{
+
+footer {
     background-color: #6bc1e2;
     margin-top: 40px;
 }
 
-.skillsection{
+.skillsection {
     margin-top: 45px;
     margin-bottom: 50px;
 }
 
 .skillbar {
-    position:relative;
-    display:block;
-    margin-bottom:15px;
+    position: relative;
+    display: block;
+    margin-bottom: 15px;
     margin-top: 25px;
-    width:100%;
-    background:#eee;
-    height:20px;
-    border-radius:3px;
-    -moz-border-radius:3px;
-    -webkit-border-radius:3px;
-    -webkit-transition:0.4s linear;
-    -moz-transition:0.4s linear;
-    -ms-transition:0.4s linear;
-    -o-transition:0.4s linear;
-    transition:0.4s linear;
-    -webkit-transition-property:width, background-color;
-    -moz-transition-property:width, background-color;
-    -ms-transition-property:width, background-color;
-    -o-transition-property:width, background-color;
-    transition-property:width, background-color;
+    width: 100%;
+    background: #eee;
+    height: 20px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -webkit-transition: 0.4s linear;
+    -moz-transition: 0.4s linear;
+    -ms-transition: 0.4s linear;
+    -o-transition: 0.4s linear;
+    transition: 0.4s linear;
+    -webkit-transition-property: width, background-color;
+    -moz-transition-property: width, background-color;
+    -ms-transition-property: width, background-color;
+    -o-transition-property: width, background-color;
+    transition-property: width, background-color;
 }
+
 .skillbar-title {
-    position:absolute;
-    top:0px;
-    left:0;
-    font-weight:bold;
-    font-size:13px;
-    color:#fff;
-    background:#6adcfa;
-    -webkit-border-top-left-radius:3px;
-    -webkit-border-bottom-left-radius:4px;
-    -moz-border-radius-topleft:3px;
-    -moz-border-radius-bottomleft:3px;
-    border-top-left-radius:3px;
-    border-bottom-left-radius:3px;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    font-weight: bold;
+    font-size: 13px;
+    color: #fff;
+    background: #6adcfa;
+    -webkit-border-top-left-radius: 3px;
+    -webkit-border-bottom-left-radius: 4px;
+    -moz-border-radius-topleft: 3px;
+    -moz-border-radius-bottomleft: 3px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
 }
 
 .skillbar-title span {
-    display:block;
-    background:rgba(0, 0, 0, 0.1);
-    padding:0 20px;
-    height:20px;
-    line-height:20px;
-    -webkit-border-top-left-radius:3px;
-    -webkit-border-bottom-left-radius:3px;
-    -moz-border-radius-topleft:3px;
-    -moz-border-radius-bottomleft:3px;
-    border-top-left-radius:3px;
-    border-bottom-left-radius:3px;
-}
-.skillbar-bar {
-    height:20px;
-    width:0px;
-    background:#6adcfa;
-    border-radius:3px;
-    -moz-border-radius:3px;
-    -webkit-border-radius:3px;
-    float: left;
-}
-    
-.skill-bar-percent {
-    position:absolute;
-    right:10px;
-    top:0;
-    font-size:11px;
-    height:15px;
-    line-height:15px;
-    color:#444;
-    color:rgba(0, 0, 0, 0.4);
+    display: block;
+    background: rgba(0, 0, 0, 0.1);
+    padding: 0 20px;
+    height: 20px;
+    line-height: 20px;
+    -webkit-border-top-left-radius: 3px;
+    -webkit-border-bottom-left-radius: 3px;
+    -moz-border-radius-topleft: 3px;
+    -moz-border-radius-bottomleft: 3px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
 }
 
+.skillbar-bar {
+    height: 20px;
+    width: 0px;
+    background: #6adcfa;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    float: left;
+}
+
+.skill-bar-percent {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    font-size: 11px;
+    height: 15px;
+    line-height: 15px;
+    color: #444;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+
 /* top button */
+
 #myBtn {
     display: none;
     position: fixed;
@@ -189,35 +228,40 @@ footer{
     cursor: pointer;
     padding: 15px;
     border-radius: 4px;
-  }
-  
-  #myBtn:hover {
-    background-color: #555;
-  }
+}
 
-@media screen and (max-width: 500px) /* Mobile */ {
-    .plane{
+#myBtn:hover {
+    background-color: #555;
+}
+
+@media screen and (max-width: 500px)
+/* Mobile */
+
+{
+    .plane {
         position: relative;
         height: 85px;
         top: 30%;
     }
-    .id{
+    .id {
         font-size: 3.2vw;
     }
-
 }
-#fh1{
+
+#fh1 {
     text-align: center;
     margin-bottom: 40px;
     color: rgb(255, 255, 255);
 }
-#cv{
+
+#cv {
     text-align: center;
     margin-bottom: 80px;
 }
-.btn-outline-info{
+
+.btn-outline-info {
     height: 50px;
     width: 200px;
     font-size: 23px;
-    background-color: transparent   ;
+    background-color: transparent;
 }
