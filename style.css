@@ -33,7 +33,7 @@ html {
 }
 #cimg{
     position: relative;
-    top:-1vh;
+    top:-0.5vh;
     z-index: -1;
     width:100vw;
 }
@@ -64,9 +64,7 @@ ul {
 
 .about {
     position: relative;
-    bottom: 10px;
-    /* ////// */
-    margin-top: 1vh;
+    margin-top:-8vh;
 }
 
 #about {
@@ -77,7 +75,7 @@ ul {
 
 .con {
     position: relative;
-    bottom: 10px;
+    margin-top: 10vw;
 }
 
 .skillsection {
@@ -251,11 +249,11 @@ footer {
         font-size: 3.2vw;
     }
 
-    #skillsvg{
+    /* #skillsvg{
         position:relative;
         height: 60px;
         bottom:100px;
-    }
+    } */
 
 }
 
@@ -288,5 +286,10 @@ footer {
 #skillsvg{
     position:relative;
     height:130px;
-    top:70px;
+    margin-top:10vw;
+}
+#prosvg{
+    position:relative;
+    height:190px;
+    margin-top:6vw;
 }
