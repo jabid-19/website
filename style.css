@@ -75,7 +75,7 @@ ul {
 
 .con {
     position: relative;
-    margin-top: 10vw;
+    margin-top: 6vw;
 }
 
 .skillsection {
@@ -281,7 +281,7 @@ footer {
 
 }
 #sv{
-    height:130px;
+    height:140px;
 }
 #skillsvg{
     position:relative;
@@ -292,4 +292,9 @@ footer {
     position:relative;
     height:190px;
     margin-top:6vw;
+}
+#cersvg{
+    position:relative;
+    height:190px;
+    margin-top:9vw;
 }
