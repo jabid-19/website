@@ -36,9 +36,7 @@ html {
     top:-0.5vh;
     z-index: -1;
     width:100vw;
-    
 }
-
 
 .id {
     font-family: cursive;
@@ -252,13 +250,6 @@ footer {
     .id {
         font-size: 3.2vw;
     }
-
-    /* #skillsvg{
-        position:relative;
-        height: 60px;
-        bottom:100px;
-    } */
-
 }
 
 #fh1 {
