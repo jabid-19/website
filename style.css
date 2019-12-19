@@ -1,301 +1,291 @@
 body {
-    background-color: rgba(255, 255, 255, 0.815);
-    overflow-x: hidden;
+  background-color: rgba(255, 255, 255, 0.815);
+  overflow-x: hidden;
 }
 
 html {
-    overflow-x: hidden;
-    scroll-behavior: smooth;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 ::-webkit-scrollbar {
-    width: 0px;
-    background: transparent;
+  width: 0px;
+  background: transparent;
 }
 
-.upper{
-    position: absolute;
-    margin-bottom: 100px;
+.upper {
+  position: absolute;
+  margin-bottom: 100px;
 }
 
 .top {
-    position: relative;
-    margin:0 auto;
-    height:40vh;
-    width: 100vw;
-    display: grid;
-    justify-content: center;
-    place-items: center;
-    align-content: center;
-    color: rgb(124, 120, 120);
-    background-color: RGB(107, 193, 226);
-    
+  position: relative;
+  margin: 0 auto;
+  height: 40vh;
+  width: 100vw;
+  display: grid;
+  justify-content: center;
+  place-items: center;
+  align-content: center;
+  color: rgb(124, 120, 120);
+  background-color: RGB(107, 193, 226);
 }
-#cimg{
-    position: relative;
-    top:-0.5vh;
-    z-index: -1;
-    width:100vw;
+#cimg {
+  position: relative;
+  top: -0.5vh;
+  z-index: -1;
+  width: 100vw;
 }
 
 .id {
-    font-family: cursive;
-    font-size: 2.5vw;
+  font-family: cursive;
+  font-size: 2.5vw;
 }
 
-
-
 .pimg {
-    position: relative;
-    height: 112px;
-    padding-top: 10px;
+  position: relative;
+  height: 112px;
+  padding-top: 10px;
 }
 
 .name {
-    color: rgb(250, 243, 243);
-    font-size: 60px;
-    padding-left: 15px;
+  color: rgb(250, 243, 243);
+  font-size: 60px;
+  padding-left: 15px;
 }
 
 ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .about {
-    position: relative;
-    margin-top:-8vh;
-    
+  position: relative;
+  margin-top: -8vh;
 }
 
 #about {
-    background-color: rgba(231, 229, 224, 0.027);
-    padding: 7px;
-    font-size: 17px;
-    
+  background-color: rgba(231, 229, 224, 0.027);
+  padding: 7px;
+  font-size: 17px;
 }
 
 .con {
-    position: relative;
-    margin-top: 6vw;
+  position: relative;
+  margin-top: 6vw;
 }
 
 .skillsection {
-    position: relative;
-    bottom: 10px;
+  position: relative;
+  bottom: 10px;
 }
 
 #section02 {
-    text-align: center;
+  text-align: center;
 }
 
 h2 {
-    font-family: Comic Sans Ms;
+  font-family: Comic Sans Ms;
 }
 
 p {
-    font-family: Candara;
-    line-height: 30px;
-    color: rgb(80, 78, 78);
+  font-family: Candara;
+  line-height: 30px;
+  color: rgb(80, 78, 78);
 }
 
 .btn-light {
-    background-color: transparent;
+  background-color: transparent;
 }
 
 .btn-light:hover {
-    background-color: rgba(0, 162, 255, 0.301);
+  background-color: rgba(0, 162, 255, 0.301);
 }
 
 .card-header {
-    background-color: #7ac4f5;
+  background-color: #7ac4f5;
 }
 
 .card {
-    margin-top: 25px;
-    border-radius: 5px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: 25px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .card-body {
-    background-color: #feffff71;
+  background-color: #feffff71;
 }
 
 .animation {
-    position: relative;
-    overflow: hidden;
+  position: relative;
+  overflow: hidden;
 }
 
 .plane {
-    position: relative;
-    height: 105px;
-    top: 30%;
+  position: relative;
+  height: 105px;
+  top: 30%;
 }
 
 footer {
-    background-color: #6bc1e2;
-    margin-top: 40px;
+  background-color: #6bc1e2;
+  margin-top: 40px;
 }
 
 .skillsection {
-    margin-top: 45px;
-    margin-bottom: 50px;
+  margin-top: 45px;
+  margin-bottom: 50px;
 }
 
 .skillbar {
-    position: relative;
-    display: block;
-    margin-bottom: 15px;
-    margin-top: 25px;
-    width: 100%;
-    background: #eee;
-    height: 20px;
-    border-radius: 3px;
-    -moz-border-radius: 3px;
-    -webkit-border-radius: 3px;
-    -webkit-transition: 0.4s linear;
-    -moz-transition: 0.4s linear;
-    -ms-transition: 0.4s linear;
-    -o-transition: 0.4s linear;
-    transition: 0.4s linear;
-    -webkit-transition-property: width, background-color;
-    -moz-transition-property: width, background-color;
-    -ms-transition-property: width, background-color;
-    -o-transition-property: width, background-color;
-    transition-property: width, background-color;
+  position: relative;
+  display: block;
+  margin-bottom: 15px;
+  margin-top: 25px;
+  width: 100%;
+  background: #eee;
+  height: 20px;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -webkit-transition: 0.4s linear;
+  -moz-transition: 0.4s linear;
+  -ms-transition: 0.4s linear;
+  -o-transition: 0.4s linear;
+  transition: 0.4s linear;
+  -webkit-transition-property: width, background-color;
+  -moz-transition-property: width, background-color;
+  -ms-transition-property: width, background-color;
+  -o-transition-property: width, background-color;
+  transition-property: width, background-color;
 }
 
 .skillbar-title {
-    position: absolute;
-    top: 0px;
-    left: 0;
-    font-weight: bold;
-    font-size: 13px;
-    color: #fff;
-    background: #6adcfa;
-    -webkit-border-top-left-radius: 3px;
-    -webkit-border-bottom-left-radius: 4px;
-    -moz-border-radius-topleft: 3px;
-    -moz-border-radius-bottomleft: 3px;
-    border-top-left-radius: 3px;
-    border-bottom-left-radius: 3px;
+  position: absolute;
+  top: 0px;
+  left: 0;
+  font-weight: bold;
+  font-size: 13px;
+  color: #fff;
+  background: #6adcfa;
+  -webkit-border-top-left-radius: 3px;
+  -webkit-border-bottom-left-radius: 4px;
+  -moz-border-radius-topleft: 3px;
+  -moz-border-radius-bottomleft: 3px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
 }
 
 .skillbar-title span {
-    display: block;
-    background: rgba(0, 0, 0, 0.1);
-    padding: 0 20px;
-    height: 20px;
-    line-height: 20px;
-    -webkit-border-top-left-radius: 3px;
-    -webkit-border-bottom-left-radius: 3px;
-    -moz-border-radius-topleft: 3px;
-    -moz-border-radius-bottomleft: 3px;
-    border-top-left-radius: 3px;
-    border-bottom-left-radius: 3px;
+  display: block;
+  background: rgba(0, 0, 0, 0.1);
+  padding: 0 20px;
+  height: 20px;
+  line-height: 20px;
+  -webkit-border-top-left-radius: 3px;
+  -webkit-border-bottom-left-radius: 3px;
+  -moz-border-radius-topleft: 3px;
+  -moz-border-radius-bottomleft: 3px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
 }
 
 .skillbar-bar {
-    height: 20px;
-    width: 0px;
-    background: #6adcfa;
-    border-radius: 3px;
-    -moz-border-radius: 3px;
-    -webkit-border-radius: 3px;
-    float: left;
+  height: 20px;
+  width: 0px;
+  background: #6adcfa;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  float: left;
 }
 
 .skill-bar-percent {
-    position: absolute;
-    right: 10px;
-    top: 0;
-    font-size: 11px;
-    height: 15px;
-    line-height: 15px;
-    color: #444;
-    color: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  right: 10px;
+  top: 0;
+  font-size: 11px;
+  height: 15px;
+  line-height: 15px;
+  color: #444;
+  color: rgba(0, 0, 0, 0.4);
 }
-
 
 /* top button */
 
 #myBtn {
-    display: none;
-    position: fixed;
-    bottom: 20px;
-    right: 30px;
-    z-index: 99;
-    font-size: 18px;
-    border: none;
-    outline: none;
-    background-color:#b7e046;
-    color: white;
-    cursor: pointer;
-    padding: 15px;
-    border-radius: 4px;
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #b7e046;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
 }
 
 #myBtn:hover {
-    background-color: #555;
+  background-color: #d4f181;
 }
 
-@media screen and (max-width: 500px)
-/* Mobile */
-
-{
-    .plane {
-        position: relative;
-        height: 85px;
-        top: 30%;
-    }
-    .id {
-        font-size: 3.2vw;
-    }
+@media screen and (max-width: 500px) /* Mobile */ {
+  .plane {
+    position: relative;
+    height: 85px;
+    top: 30%;
+  }
+  .id {
+    font-size: 3.2vw;
+  }
 }
 
 #fh1 {
-    text-align: center;
-    margin-bottom: 40px;
-    color: rgb(255, 255, 255);
+  text-align: center;
+  margin-bottom: 40px;
+  color: rgb(255, 255, 255);
 }
 
 #cv {
-    text-align: center;
-    margin-bottom: 80px;
+  text-align: center;
+  margin-bottom: 80px;
 }
 
 .btn-outline-info {
-    height: 50px;
-    width: 200px;
-    font-size: 23px;
-    background-color: transparent;
+  height: 50px;
+  width: 200px;
+  font-size: 23px;
+  background-color: transparent;
 }
-.foot{
-    width: 100%;
-    border: 3px rgb(134, 132, 132) solid;
-    border-radius: 7px;
-    text-align:center;
-
+.foot {
+  width: 100%;
+  border: 3px rgb(134, 132, 132) solid;
+  border-radius: 7px;
+  text-align: center;
 }
-#sv{
-    height:140px;
+#sv {
+  height: 140px;
 }
-#skillsvg{
-    position:relative;
-    height:130px;
-    margin-top:10vw;
+#skillsvg {
+  position: relative;
+  height: 130px;
+  margin-top: 10vw;
 }
-#prosvg{
-    position:relative;
-    height:190px;
-    margin-top:6vw;
+#prosvg {
+  position: relative;
+  height: 190px;
+  margin-top: 6vw;
 }
-#cersvg{
-    position:relative;
-    height:190px;
-    margin-top:9vw;
+#cersvg {
+  position: relative;
+  height: 190px;
+  margin-top: 9vw;
 }
-.ft{
-    border-radius: 5px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    padding: 10px;
+.ft {
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 10px;
 }
