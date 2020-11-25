@@ -289,3 +289,25 @@ footer {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   padding: 10px;
 }
+
+.fa-pinterest:before {
+  content: "\f0d2";
+  font-size: 40px;
+  color: red;
+}
+
+.fa-behance-square:before {
+  content: "\f1b5";
+  font-size: 40px;
+  color: #0057ff;
+}
+
+.img-fluid {
+  cursor: zoom-in;
+}
+
+#cv-img {
+  position: relative;
+  height: 290px;
+  margin-top: 6vw;
+}
