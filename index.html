@@ -171,160 +171,90 @@
         <h2 data-sal="fade" data-sal-duration="1000" data-sal-delay="50" style="font-family: Comic Sans MS"><u>UI Designs</u></h2>
     </div>
 
+
+
 <div class="container">
 
-<!-- Grid row -->
-<div class="row data-sal="fade" data-sal-duration="1000" data-sal-delay="300"">
-
-    <!-- Grid column -->
-    <div class="col-lg-4 col-md-12 mb-4">
-  
-      <!--Modal: Name-->
-      <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-xl" role="document">
-  
-          <!--Content-->
-          <div class="modal-content">
-  
-            <!--Body-->
-            <div class="modal-body mb-0 p-0">
-  
-              <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
-                <!-- <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/A3PDXmYoF5U"
-                  allowfullscreen></iframe> -->
-                  <img class="embed-responsive-item" src="img/ui01.png" alt="">
-              </div>
-  
-            </div>
-  
-            <!--Footer-->
-            <div class="modal-footer justify-content-center">
-              <h3 class="mr-4">NIKE landing page</h3>
-              <a type="button" href="https://www.behance.net/gallery/96483215/NIKE-Landing-Page" target="_blank" class="btn-floating btn-sm btn-fb" ><i class="fa fa-behance-square"></i></a>
-              <!--Twitter-->
-              <a type="button" href="https://www.behance.net/gallery/96483215/NIKE-Landing-Page" target="_blank" class="btn-floating btn-sm btn-tw"><i class="fa fa-pinterest"></i></a>
-            </div>
-  
-          </div>
-          <!--/.Content-->
-  
+    <div class="row gallery-row">
+        <div class="column ">
+          <img src="img/ui01.png" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+        </div>
+        <div class="column">
+          <img src="img/ui02.png" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+        </div>
+        <div class="column">
+          <img src="img/ui03.png" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
         </div>
       </div>
-      <!--Modal: Name-->
-  
-      <a><img class="img-fluid z-depth-1" src="img/ui01.png" alt="video"
-          data-toggle="modal" data-target="#modal1"></a>
-  
-    </div>
-    <!-- Grid column -->
-  
-    <!-- Grid column -->
-    <div class="col-lg-4 col-md-6 mb-4">
-  
-      <!--Modal: Name-->
-      <div class="modal fade" id="modal6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-xl" role="document">
-  
-          <!--Content-->
-          <div class="modal-content">
-  
-            <!--Body-->
-            <div class="modal-body mb-0 p-0">
-  
-              <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
-                <!-- <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/wTcNtgA6gHs"
-                  allowfullscreen></iframe> -->
-                  <img class="embed-responsive-item" src="img/ui04.png" alt="">
+
+      <div class="row gallery-row">
+        <div class="column">
+          <img src="img/ui04.png" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+        </div>
+        <div class="column">
+          <img src="img/ui05.png" style="width:100%" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
+        </div>
+        <div class="column">
+          <img src="img/ui06.png" style="width:100%" onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
+        </div>
+      </div>
+
+      <div class="row gallery-row">
+        <div class="column ">
+          <img src="img/ui07.png" style="width:100%" onclick="openModal();currentSlide(7)" class="hover-shadow cursor">
+        </div>
+        <div class="column">
+          <img src="img/ui08.png" style="width:100%" onclick="openModal();currentSlide(8)" class="hover-shadow cursor">
+        </div>
+        <div class="column">
+          <img src="img/ui09.png" style="width:100%" onclick="openModal();currentSlide(9)" class="hover-shadow cursor">
+        </div>
+      </div>
+      
+      <div id="myModal" class="modal">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+      
+          <div class="mySlides">
+            <div class="numbertext">1 / 9</div>
+            <img src="img/ui01.png" style="width:100%">
+
+             <!--Footer-->
+             <div class="modal-footer justify-content-center">
+                <h3 class="mr-4">NIKE landing page</h3>
+                <a type="button" href="https://www.behance.net/gallery/96483215/NIKE-Landing-Page" target="_blank" class="btn-floating btn-sm" ><i class="fa fa-behance-square"></i></a>
+                <!--Twitter-->
+                <a type="button" href="https://www.behance.net/gallery/96483215/NIKE-Landing-Page" target="_blank" class="btn-floating btn-sm"><i class="fa fa-pinterest"></i></a>
               </div>
-  
-            </div>
-  
-            <!--Footer-->
-            <div class="modal-footer justify-content-center">
+          </div>
+      
+          <div class="mySlides">
+            <div class="numbertext">2 / 9</div>
+            <img src="img/ui02.png" style="width:100%">
+              <!--Footer-->
+              <div class="modal-footer justify-content-center">
                 <h3 class="mr-4">Fitbit product page</h3>
                 <a type="button" href="https://www.behance.net/gallery/96854311/Fitbit-Product-Page" target="_blank" class="btn-floating btn-sm btn-fb" ><i class="fa fa-behance-square"></i></a>
                 <!--Twitter-->
                 <a type="button" href="https://www.pinterest.com/pin/618330223828663158/" target="_blank" class="btn-floating btn-sm btn-tw"><i class="fa fa-pinterest"></i></a>
               </div>
-  
           </div>
-          <!--/.Content-->
-  
-        </div>
-      </div>
-      <!--Modal: Name-->
-  
-      <a><img class="img-fluid z-depth-1" src="img/ui04.png" alt="video"
-          data-toggle="modal" data-target="#modal6"></a>
-  
-    </div>
-    <!-- Grid column -->
-  
-    <!-- Grid column -->
-    <div class="col-lg-4 col-md-6 mb-4">
-  
-      <!--Modal: Name-->
-      <div class="modal fade" id="modal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-xl" role="document">
-  
-          <!--Content-->
-          <div class="modal-content">
-  
-            <!--Body-->
-            <div class="modal-body mb-0 p-0">
-  
-              <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
-                <img class="embed-responsive-item" src="img/ui05.png" alt="">
-              </div>
-  
-            </div>
-  
-            <!--Footer-->
-            <div class="modal-footer justify-content-center">
+      
+          <div class="mySlides">
+            <div class="numbertext">3 / 9</div>
+            <img src="img/ui03.png" style="width:100%">
+              <!--Footer-->
+              <div class="modal-footer justify-content-center">
                 <h3 class="mr-4">BD travel app</h3>
                 <a type="button" href="https://www.behance.net/gallery/96744373/BD-Travel-App" target="_blank" class="btn-floating btn-sm btn-fb" ><i class="fa fa-behance-square"></i></a>
                 <!--Twitter-->
                 <a type="button" href="https://www.pinterest.com/pin/618330223828563506/" target="_blank" class="btn-floating btn-sm btn-tw"><i class="fa fa-pinterest"></i></a>
               </div>
-  
           </div>
-          <!--/.Content-->
-  
-        </div>
-      </div>
-      <!--Modal: Name-->
-  
-      <a><img class="img-fluid z-depth-1" src="img/ui05.png" alt="video"
-          data-toggle="modal" data-target="#modal4"></a>
-  
-    </div>
-    <!-- Grid column -->
-  
-  </div>
-  <!-- Grid row -->
-  
-  <!-- Grid row -->
-  <div class="row">
-  
-    <!-- Grid column -->
-    <div class="col-lg-4 col-md-12 mb-4">
-  
-      <!--Modal: Name-->
-      <div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-xl" role="document">
-  
-          <!--Content-->
-          <div class="modal-content">
-  
-            <!--Body-->
-            <div class="modal-body mb-0 p-0">
-  
-              <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
-                <img class="embed-responsive-item" src="img/ui06.png" alt="">
-              </div>
-  
-            </div>
-  
+          
+          <div class="mySlides">
+            <div class="numbertext">4 / 9</div>
+            <img src="img/ui04.png" style="width:100%">
             <!--Footer-->
             <div class="modal-footer justify-content-center">
                 <h3 class="mr-4">SCRUPT website</h3>
@@ -332,79 +262,35 @@
                 <!--Twitter-->
                 <a type="button" href="https://www.pinterest.com/pin/618330223828663188/" target="_blank" class="btn-floating btn-sm btn-tw"><i class="fa fa-pinterest"></i></a>
               </div>
-  
           </div>
-          <!--/.Content-->
-  
-        </div>
-      </div>
-      <!--Modal: Name-->
-  
-      <a><img class="img-fluid z-depth-1" src="img/ui06.png" alt="video"
-          data-toggle="modal" data-target="#modal2"></a>
-  
-    </div>
-    <!-- Grid column -->
-  
-    <!-- Grid column -->
-    <div class="col-lg-4 col-md-6 mb-4">
-  
-      <!--Modal: Name-->
-      <div class="modal fade" id="modal5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-xl" role="document">
-  
-          <!--Content-->
-          <div class="modal-content">
-  
-            <!--Body-->
-            <div class="modal-body mb-0 p-0">
-  
-              <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
-                <img class="embed-responsive-item" src="img/ui02.png" alt="">
-              </div>
-  
-            </div>
-  
-            <!--Footer-->
-            <div class="modal-footer justify-content-center">
+
+          <div class="mySlides">
+            <div class="numbertext">5 / 9</div>
+            <img src="img/ui05.png" style="width:100%">
+             <!--Footer-->
+             <div class="modal-footer justify-content-center">
                 <h3 class="mr-4">BikeIn landing page</h3>
                 <a type="button" href="https://www.behance.net/gallery/96607277/BikeIn-Landing-Page" target="_blank" class="btn-floating btn-sm btn-fb" ><i class="fa fa-behance-square"></i></a>
                 <!--Twitter-->
                 <a type="button" href="https://www.pinterest.com/pin/618330223828563500/" target="_blank" class="btn-floating btn-sm btn-tw"><i class="fa fa-pinterest"></i></a>
               </div>
-  
           </div>
-          <!--/.Content-->
-  
-        </div>
-      </div>
-      <!--Modal: Name-->
-  
-      <a><img class="img-fluid z-depth-1" src="img/ui02.png" alt="video"
-          data-toggle="modal" data-target="#modal5"></a>
-  
-    </div>
-    <!-- Grid column -->
-  
-    <!-- Grid column -->
-    <div class="col-lg-4 col-md-6 mb-4">
-  
-      <!--Modal: Name-->
-      <div class="modal fade" id="modal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-xl" role="document">
-  
-          <!--Content-->
-          <div class="modal-content">
-  
-            <!--Body-->
-            <div class="modal-body mb-0 p-0">
-  
-              <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
-                <img class="embed-responsive-item" src="img/ui03.png" alt="">
+      
+          <div class="mySlides">
+            <div class="numbertext">6 / 9</div>
+            <img src="img/ui06.png" style="width:100%">
+            <!--Footer-->
+            <div class="modal-footer justify-content-center">
+                <h3 class="mr-4">FoodON full website</h3>
+                <a type="button" href="https://www.behance.net/gallery/96541503/FoodON-Website" target="_blank" class="btn-floating btn-sm btn-fb" ><i class="fa fa-behance-square"></i></a>
+                <!--Twitter-->
+                <a type="button" href="https://www.pinterest.com/pin/618330223828663140/" target="_blank" class="btn-floating btn-sm btn-tw"><i class="fa fa-pinterest"></i></a>
               </div>
-  
-            </div>
-  
+          </div>
+      
+          <div class="mySlides">
+            <div class="numbertext">7 / 9</div>
+            <img src="img/ui07.png" style="width:100%">
             <!--Footer-->
             <div class="modal-footer justify-content-center">
                 <h3 class="mr-4">Special interior landing page</h3>
@@ -412,25 +298,72 @@
                 <!--Twitter-->
                 <a type="button" href="https://www.pinterest.com/pin/618330223828563472/" target="_blank" class="btn-floating btn-sm btn-tw"><i class="fa fa-pinterest"></i></a>
               </div>
-  
           </div>
-          <!--/.Content-->
-  
+          
+          <div class="mySlides">
+            <div class="numbertext">8 / 9</div>
+            <img src="img/ui08.png" style="width:100%">
+            <!--Footer-->
+            <div class="modal-footer justify-content-center">
+                <h3 class="mr-4">Ferrari F12TdF landing-page</h3>
+                <a type="button" href="https://www.behance.net/gallery/108565753/Ferrari-F12TdF-landing-page" target="_blank" class="btn-floating btn-sm btn-fb" ><i class="fa fa-behance-square"></i></a>
+                <!--Twitter-->
+                <a type="button" href="https://www.pinterest.com/pin/618330223835193344/" target="_blank" class="btn-floating btn-sm btn-tw"><i class="fa fa-pinterest"></i></a>
+              </div>
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">9 / 9</div>
+            <img src="img/ui09.png" style="width:100%">
+            <!--Footer-->
+            <div class="modal-footer justify-content-center">
+                <h3 class="mr-4">TriYoga website</h3>
+                <a type="button" href="https://www.behance.net/gallery/97245037/TriYoga-Website" target="_blank" class="btn-floating btn-sm btn-fb" ><i class="fa fa-behance-square"></i></a>
+                <!--Twitter-->
+                <a type="button" href="https://www.pinterest.com/pin/618330223828663173/" target="_blank" class="btn-floating btn-sm btn-tw"><i class="fa fa-pinterest"></i></a>
+              </div>
+          </div>
+          
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      
+          <div class="caption-container">
+            <p id="caption"></p>
+          </div>
+      
+      
+          <!-- <div class="column">
+            <img class="demo cursor" src="img/ui01.png" style="width:100%" onclick="currentSlide(1)" alt="Nature and sunrise">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="img/ui02.png" style="width:100%" onclick="currentSlide(2)" alt="Snow">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="img/ui03.png" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="img/ui04.png" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="img/ui05.png" style="width:100%" onclick="currentSlide(1)" alt="Nature and sunrise">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="img/ui06.png" style="width:100%" onclick="currentSlide(2)" alt="Snow">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="img/ui07.png" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="img/ui08.png" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="img/ui09.png" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+          </div> -->
+
         </div>
       </div>
-      <!--Modal: Name-->
-  
-      <a><img class="img-fluid z-depth-1" src="img/ui03.png" alt="video"
-          data-toggle="modal" data-target="#modal3"></a>
-  
-    </div>
-    <!-- Grid column -->
-  
-  </div>
-  <!-- Grid row -->
+
 </div>
-
-
 
 
 
@@ -538,29 +471,93 @@
             </div>
         </div>
     </section>
+    
 
-    <div class="container m-4" id="cv" data-sal="fade" data-sal-duration="700" data-sal-delay="100">
+
+    <div class="container mt-5" id="">
+        <div class="row justify-content-center">
+             <h2 data-sal="fade" data-sal-duration="1000" data-sal-delay="50" style="font-family: Comic Sans MS"><u>My Skills</u></h2>
+        </div>
+    <div class="row mt-5">
+        <div class="col-6 skill-btns">
+            <h6 class="ml-1">Programming Languages</h6>
+            <div class="skill-button">
+                <button class="button">PHP</button>
+                <button class="button">Javascript</button>
+                <button class="button">C</button>
+                <button class="button">C++</button>
+            </div>
+
+            <h6 class="mt-4 mb-3 ml-1">Libraries / Frameworks</h6>
+            <div class="skill-button">
+                <button class="button">Laravel</button>
+                <button class="button">VueJS</button>
+                <button class="button">Bootstrap</button>
+                <button class="button">JQuery</button>
+            </div>
+
+            <h6 class="mt-4 mb-3 ml-1">Markup / Style Languages</h6>
+            <div class="skill-button">
+                <button class="button">HTML5</button>
+                <button class="button">CSS3</button>
+            </div> 
+
+            <h6 class="mt-4 mb-3 ml-1">UI Design Tools</h6>
+            <div class="skill-button">
+                <button class="button">Figma</button>
+                <button class="button">Adobe XD</button>
+            </div> 
+
+            <h6 class="mt-4 mb-3 ml-1">Database Technologies</h6>
+            <div class="skill-button">
+                <button class="button">MySQL</button>
+                <button class="button">SQLite</button>
+            </div> 
+
+            <h6 class="mt-4 mb-3 ml-1">Version Control Tools</h6>
+            <div class="skill-button">
+                <button class="button">Git</button>
+                <button class="button">Github</button>
+                <button class="button">Bitbucket</button>
+            </div> 
+
+            <h6 class="mt-4 mb-3 ml-1">IDE & Text Editors</h6>
+            <div class="skill-button">
+                <button class="button">VSCode</button>
+                <button class="button">PHPStorm</button>
+                <button class="button">Codeblocks</button>
+            </div> 
+        </div>
+        <div class="col-6">
+            <a href="https://drive.google.com/file/d/1PPdnaokHT0pR2YnOvEwTtafFTAQOAUU6/view?usp=sharing" target="_blank"
+             class="btn btn-outline-info">Download my CV</a>
+
+             <a href="https://drive.google.com/file/d/1PPdnaokHT0pR2YnOvEwTtafFTAQOAUU6/view?usp=sharing" target="_blank"><img id="cv-img" src="img/cv.png" alt=""></a>
+        </div>
+    </div>
+
+    
+    </div>
+
+
+
+    <!-- <div class="container" id="cv" data-sal="fade" data-sal-duration="700" data-sal-delay="100">
         <div class="row">
             <div class="col-2">
 
             </div>
             <div class="col-8">
                 <a href="https://drive.google.com/file/d/1PPdnaokHT0pR2YnOvEwTtafFTAQOAUU6/view?usp=sharing" target="_blank"
-            class="btn btn-outline-info">DOWNLOAD CV</a>
+                 class="btn btn-outline-info">DOWNLOAD CV</a>
 
-            <a href="https://drive.google.com/file/d/1PPdnaokHT0pR2YnOvEwTtafFTAQOAUU6/view?usp=sharing" target="_blank"
-            ><img id="cv-img" src="img/cv.png" alt="">
-        </a>
-            
-
-        
+                 <a href="https://drive.google.com/file/d/1PPdnaokHT0pR2YnOvEwTtafFTAQOAUU6/view?usp=sharing" target="_blank"><img id="cv-img" src="img/cv.png" alt=""></a>
             </div>
             <div class="col-2">
                 
             </div>
         </div>
         
-    </div>
+    </div> -->
 
     <div class="container" data-sal="fade" data-sal-duration="1000" data-sal-delay="300">
         <div class="row">

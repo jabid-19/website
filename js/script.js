@@ -9,8 +9,8 @@ const flightPath = {
     { x: 500, y: -50 },
     { x: 950, y: 100 },
     { x: 550, y: -50 },
-    { x: 800, y: 0 }
-  ]
+    { x: 800, y: 0 },
+  ],
 };
 
 const tween = new TimelineLite();
@@ -18,7 +18,7 @@ const tween = new TimelineLite();
 tween.add(
   TweenLite.to(".plane", 1, {
     bezier: flightPath,
-    ease: Power1.easeInOut
+    ease: Power1.easeInOut,
   })
 );
 
@@ -27,7 +27,7 @@ const controller = new ScrollMagic.Controller();
 const scene = new ScrollMagic.Scene({
   triggerElement: ".animation",
   duration: 2000,
-  triggerHook: 0
+  triggerHook: 0,
 })
   .setTween(tween)
   // .addIndicators()
@@ -37,17 +37,17 @@ const scene = new ScrollMagic.Scene({
 
 var skillsDiv = jQuery(".about");
 
-jQuery(window).on("scroll", function() {
+jQuery(window).on("scroll", function () {
   var winT = jQuery(window).scrollTop(),
     winH = jQuery(window).height(),
     skillsT = skillsDiv.offset().top;
   if (winT + winH > skillsT) {
-    jQuery(".skillbar").each(function() {
+    jQuery(".skillbar").each(function () {
       jQuery(this)
         .find(".skillbar-bar")
         .animate(
           {
-            width: jQuery(this).attr("data-percent")
+            width: jQuery(this).attr("data-percent"),
           },
           6000
         );
@@ -61,7 +61,7 @@ jQuery(window).on("scroll", function() {
 var mybutton = document.getElementById("myBtn");
 
 // When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {
+window.onscroll = function () {
   scrollFunction();
 };
 
@@ -77,4 +77,45 @@ function scrollFunction() {
 function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
+}
+
+function openModal() {
+  document.getElementById("myModal").style.display = "block";
+}
+
+function closeModal() {
+  document.getElementById("myModal").style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides((slideIndex += n));
+}
+
+function currentSlide(n) {
+  showSlides((slideIndex = n));
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {
+    slideIndex = 1;
+  }
+  if (n < 1) {
+    slideIndex = slides.length;
+  }
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex - 1].style.display = "block";
+  dots[slideIndex - 1].className += " active";
+  captionText.innerHTML = dots[slideIndex - 1].alt;
 }
