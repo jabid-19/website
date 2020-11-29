@@ -455,17 +455,17 @@ img.hover-shadow {
   transition: 0.3s;
   display: inline-block;
   text-decoration: none;
-  cursor: initial;
+  /* cursor: initial; */
   outline: none;
 }
 .button:hover {
   opacity: 0.6;
   border: none;
+  cursor: initial;
 }
 
-button:active {
-  border-style: outset;
-  outline: none;
+button:focus {
+  outline: 0 !important;
 }
 .skill-btns {
   float: left;
