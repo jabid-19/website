@@ -254,7 +254,7 @@ footer {
   margin-bottom: 80px;
 }
 
-.btn-outline-info {
+.cv-btn {
   height: 50px;
   width: 250px;
   font-size: 23px;
@@ -299,7 +299,7 @@ footer {
 .fa-behance-square:before {
   content: "\f1b5";
   font-size: 40px;
-  color: #4c7cdb;
+  color: #53a8da;
 }
 
 .img-fluid {
@@ -327,7 +327,7 @@ footer {
   display: none;
   position: fixed;
   z-index: 1;
-  padding-top: 100px;
+  padding-top: 55px;
   left: 0;
   top: 0;
   width: 100%;
@@ -438,9 +438,11 @@ img.hover-shadow {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.modal-footer {
+.modal-title {
   background-color: black;
   color: white;
+  display: flex;
+  justify-content: center;
 }
 
 .button {
@@ -469,4 +471,26 @@ button:focus {
 }
 .skill-btns {
   float: left;
+}
+.ux {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.ux-card {
+  width: 300px;
+  height: 340px;
+}
+/* .ux-button {
+  width: 150px;
+  height: 40px;
+  font-size: 18px;
+  font-weight: bold;
+} */
+
+#uisvg {
+  position: relative;
+  height: 190px;
+  margin-top: 5vw;
 }
