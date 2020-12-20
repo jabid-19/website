@@ -39,7 +39,8 @@ html {
 
 .id {
   font-family: cursive;
-  font-size: 2.5vw;
+  /* font-size: 2.5vw; */
+  font-size: 2rem;
 }
 
 .pimg {
