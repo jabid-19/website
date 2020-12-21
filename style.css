@@ -106,11 +106,12 @@ p {
   background-color: #7ac4f5;
 }
 
-.card {
+/* .card {
   margin-top: 25px;
   border-radius: 5px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
+  box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25),
+    -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+} */
 
 .card-body {
   background-color: #feffff71;
@@ -432,6 +433,8 @@ img {
 }
 
 img.hover-shadow {
+  box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25),
+    -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
   transition: 0.3s;
 }
 
@@ -458,8 +461,9 @@ img.hover-shadow {
   transition: 0.3s;
   display: inline-block;
   text-decoration: none;
-  /* cursor: initial; */
   outline: none;
+  /* box-shadow: 2px 2px 8px 0 rgba(83, 83, 83, 0.25),
+    -0px -0px 4px 0 rgba(255, 255, 255, 0.3); */
 }
 .button:hover {
   opacity: 0.6;
@@ -481,7 +485,13 @@ button:focus {
 
 .ux-card {
   width: 300px;
-  height: 340px;
+  height: 400px;
+  box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25),
+    -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+  transition: 0.3s;
+}
+.ux-card:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 /* .ux-button {
   width: 150px;
@@ -494,4 +504,18 @@ button:focus {
   position: relative;
   height: 190px;
   margin-top: 5vw;
+}
+.cer-div {
+  box-shadow: 2px 2px 8px 0 rgba(83, 83, 83, 0.25),
+    -0px -0px 4px 0 rgba(255, 255, 255, 0.3);
+}
+.project-card {
+  margin-top: 25px;
+  border-radius: 5px;
+  box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25),
+    -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+  transition: 0.1s;
+}
+.project-card:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
