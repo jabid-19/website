@@ -241,7 +241,10 @@ footer {
     top: 30%;
   }
   .id {
-    font-size: 3.2vw;
+    font-size: 3.3vw;
+  }
+  #sv {
+    display: none;
   }
 }
 
@@ -486,6 +489,7 @@ button:focus {
 .ux-card {
   width: 300px;
   height: 400px;
+  margin-top: 5px;
   box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25),
     -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
   transition: 0.3s;
