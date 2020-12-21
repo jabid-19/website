@@ -27,7 +27,7 @@ html {
   justify-content: center;
   place-items: center;
   align-content: center;
-  color: rgb(124, 120, 120);
+  color: rgb(117, 115, 115);
   background-color: RGB(107, 193, 226);
 }
 #cimg {
@@ -39,7 +39,6 @@ html {
 
 .id {
   font-family: cursive;
-  /* font-size: 2.5vw; */
   font-size: 2rem;
 }
 
@@ -243,7 +242,7 @@ footer {
   .id {
     font-size: 3.3vw;
   }
-  #sv {
+  #con-svg {
     display: none;
   }
 }
@@ -271,7 +270,10 @@ footer {
   border-radius: 7px;
   text-align: center;
 }
-#sv {
+#about-svg {
+  height: 140px;
+}
+#con-svg {
   height: 140px;
 }
 #skillsvg {
