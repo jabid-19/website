@@ -233,20 +233,6 @@ footer {
   background-color: #d4f181;
 }
 
-@media screen and (max-width: 500px) /* Mobile */ {
-  .plane {
-    position: relative;
-    height: 85px;
-    top: 30%;
-  }
-  .id {
-    font-size: 3.3vw;
-  }
-  #con-svg {
-    display: none;
-  }
-}
-
 #fh1 {
   text-align: center;
   margin-bottom: 40px;
@@ -524,4 +510,19 @@ button:focus {
 }
 .project-card:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media screen and (max-width: 500px) /* Mobile */ {
+  .plane {
+    position: relative;
+    height: 85px;
+    top: 30%;
+  }
+  .id {
+    font-size: 3.3vw;
+  }
+  #con-svg,
+  #cv-img {
+    display: none;
+  }
 }
