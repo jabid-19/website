@@ -361,7 +361,7 @@ footer {
 }
 
 .cursor {
-  cursor: pointer;
+  cursor: zoom-in;
 }
 
 /* Next & previous buttons */
