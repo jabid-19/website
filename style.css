@@ -527,7 +527,24 @@ button:focus {
     font-size: 3.3vw;
   }
   #con-svg,
-  #cv-img {
+  #cv-img,
+  #about-svg {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1200px) /* Mobile */ {
+  .plane {
+    position: relative;
+    height: 85px;
+    top: 30%;
+  }
+  .id {
+    font-size: 3.3vw;
+  }
+  #con-svg,
+  #cv-img,
+  #about-svg {
     display: none;
   }
 }
