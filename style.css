@@ -60,7 +60,7 @@ ul {
 
 .about {
   position: relative;
-  margin-top: -8vh;
+  margin-top: -7vh;
 }
 
 #about {
@@ -546,5 +546,10 @@ button:focus {
   #cv-img,
   #about-svg {
     display: none;
+  }
+  .name {
+    color: rgb(250, 243, 243);
+    font-size: 50px;
+    padding-left: 15px;
   }
 }
