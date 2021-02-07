@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Averia+Sans+Libre:ital,wght@1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Averia+Sans+Libre:wght@1,300&display=swap");
 
 body {
   background-color: rgba(255, 255, 255, 0.815);
@@ -45,7 +45,7 @@ html {
   font-family: "Averia Sans Libre", cursive;
   font-weight: ;
   font-size: 2.2rem;
-  color: #6e6e6e;
+  color: #c6f6ff;
 }
 
 .pimg {
