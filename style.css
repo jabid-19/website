@@ -679,7 +679,7 @@ text a:focus {
   top: calc(100% - 2em);
   color: white;
   background: rgba(0, 0, 0, 0.5);
-  font-size: 2em;
+  font-size: 2rem;
   transform: rotate(0deg) skew(-5deg);
 }
 
