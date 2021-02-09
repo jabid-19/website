@@ -665,7 +665,7 @@ text a:focus {
   position: absolute;
   bottom: 0;
   left: 0;
-  font-size: 1em;
+  font-size: 1.2rem;
   white-space: nowrap;
 }
 .ui-container .ui-card:hover {
