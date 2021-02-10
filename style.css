@@ -624,7 +624,7 @@ text a:focus {
   margin-right: 1em;
 }
 
-.fa-behance:before {
+.fa-behance-square:before {
   content: "\f1b5";
   font-size: 26px;
   color: #2415f6;
@@ -699,10 +699,9 @@ text a:focus {
     font-size: 1rem;
     transform: rotate(0deg) skew(-5deg);
   }
-  .fa-behance:before {
+  .fa-behance-square:before {
     content: "\f1b5";
     font-size: 16px;
-    color: #ffffff;
     margin-left: 2px;
   }
   .fa-pinterest:before {
@@ -747,7 +746,6 @@ text a:focus {
   .fa-behance-square:before {
     content: "\f1b5";
     font-size: 16px;
-    color: #0057ff;
     margin-left: 2px;
   }
   .fa-pinterest:before {
