@@ -604,7 +604,7 @@ text a:focus {
   text-align: center;
   top: calc(100% - 2em);
   color: white;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(86, 210, 248, 0.6);
   font-size: 2rem;
   transform: rotate(0deg) skew(-5deg);
 }
