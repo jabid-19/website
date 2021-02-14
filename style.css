@@ -370,6 +370,24 @@ img.hover-shadow {
   /* box-shadow: 2px 2px 8px 0 rgba(83, 83, 83, 0.25),
     -0px -0px 4px 0 rgba(255, 255, 255, 0.3); */
 }
+
+.button-after {
+  background-color: rgb(235, 117, 117);
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 6px 18px;
+  text-align: center;
+  font-size: 14px;
+  margin: 4px 2px;
+  opacity: 1;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  outline: none;
+  /* box-shadow: 2px 2px 8px 0 rgba(83, 83, 83, 0.25),
+    -0px -0px 4px 0 rgba(255, 255, 255, 0.3); */
+}
+
 .button:hover {
   opacity: 0.6;
   border: none;
@@ -622,7 +640,8 @@ text a:focus {
   }
   #con-svg,
   #cv-img,
-  #about-svg {
+  #about-svg,
+  .brain-svg {
     display: none;
   }
 
@@ -697,7 +716,8 @@ text a:focus {
   }
   #con-svg,
   #cv-img,
-  #about-svg {
+  #about-svg,
+  .brain-svg {
     display: none;
   }
   .name {
@@ -728,4 +748,36 @@ text a:focus {
     font-size: 16px;
     color: red;
   }
+}
+.brain-svg {
+  filter: grayscale(70%);
+}
+
+.brain-svg:hover {
+  filter: grayscale(0%);
+}
+
+#left {
+  /* filter: grayscale(70%); */
+  opacity: 70%;
+  transition: opacity 0.5s;
+}
+#left:hover {
+  opacity: 100%;
+}
+
+#right {
+  opacity: 80%;
+  transition: opacity 0.5s;
+}
+#right:hover {
+  opacity: 100%;
+}
+
+#bottom {
+  opacity: 70%;
+  transition: opacity 0.5s;
+}
+#bottom:hover {
+  opacity: 100%;
 }

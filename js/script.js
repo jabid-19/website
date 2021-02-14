@@ -94,3 +94,29 @@ function topFunction() {
 //   dots[slideIndex - 1].className += " active";
 //   captionText.innerHTML = dots[slideIndex - 1].alt;
 // }
+
+$(document).ready(function () {
+  $("#left").hover(function () {
+    var element = document.getElementsByClassName("programming");
+    var i;
+    for (i = 0; i < element.length; i++) {
+      element[i].classList.toggle("button-after");
+    }
+  });
+
+  $("#right").hover(function () {
+    var element = document.getElementsByClassName("design");
+    var i;
+    for (i = 0; i < element.length; i++) {
+      element[i].classList.toggle("button-after");
+    }
+  });
+
+  $("#bottom").hover(function () {
+    var element = document.getElementsByClassName("others");
+    var i;
+    for (i = 0; i < element.length; i++) {
+      element[i].classList.toggle("button-after");
+    }
+  });
+});
