@@ -119,4 +119,6 @@ $(document).ready(function () {
       element[i].classList.toggle("button-after");
     }
   });
+
+  $('[data-toggle="tooltip"]').tooltip();
 });
