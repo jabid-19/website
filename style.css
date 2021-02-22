@@ -509,7 +509,7 @@ button:focus {
   width: 100%;
   opacity: 0;
   transition: 0.5s ease;
-  background-color: #4fabe0ea;
+  background-color: #4fabe0f8;
 }
 
 .category-item-div:hover .overlay {
@@ -528,7 +528,7 @@ button:focus {
 }
 
 .text p {
-  color: white;
+  color: rgb(255, 255, 255);
   font-size: 1rem;
 }
 
@@ -547,7 +547,9 @@ button:focus {
   outline: none;
 }
 .text a:hover {
-  opacity: 0.6;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  /* opacity: 0.6; */
   border: none;
   cursor: pointer;
 }
