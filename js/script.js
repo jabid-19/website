@@ -33,7 +33,6 @@ const scene = new ScrollMagic.Scene({
   .addTo(controller);
 
 // top Button
-
 var mybutton = document.getElementById("myBtn");
 
 window.onscroll = function () {
@@ -143,4 +142,6 @@ $(document).ready(function () {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
   }
+
+  //mail
 });
