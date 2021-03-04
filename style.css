@@ -87,12 +87,19 @@ html {
   z-index: -1;
   width: 100vw;
 }
-
+.name {
+  color: rgb(250, 243, 243);
+  font-size: 3.8rem;
+  font-weight: bold;
+  padding-left: 15px;
+  animation: float2 5s ease-in-out infinite;
+}
 .slogan {
   font-family: "Averia Sans Libre", cursive;
   font-weight: ;
   font-size: 2.2rem;
   color: #c6f6ff;
+  animation: float2 4s ease-in-out infinite;
 }
 
 .avatar {
@@ -120,38 +127,32 @@ html {
 
 @keyframes float {
   0% {
-    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.383);
     transform: translatey(0px);
   }
   50% {
-    box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.15);
     transform: translatey(-20px);
   }
   100% {
-    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.383);
     transform: translatey(0px);
   }
 }
 
 @keyframes float2 {
   0% {
-    /* box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6); */
+    text-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
     transform: translatey(0px);
   }
   50% {
-    /* box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2); */
+    text-shadow: 0 25px 15px rgba(0, 0, 0, 0.2);
     transform: translatey(-20px);
   }
   100% {
-    /* box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6); */
+    text-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
     transform: translatey(0px);
   }
-}
-.name {
-  color: rgb(250, 243, 243);
-  font-size: 3.8rem;
-  font-weight: bold;
-  padding-left: 15px;
 }
 
 ul {
@@ -259,23 +260,23 @@ footer {
 }
 #about-svg {
   height: 140px;
-  animation: float2 6s ease-in-out infinite;
+  animation: float2 3s ease-in-out infinite;
 }
 #con-svg {
   height: 140px;
-  animation: float2 6s ease-in-out infinite;
+  animation: float2 4s ease-in-out infinite;
 }
 #skillsvg {
   position: relative;
   height: 130px;
   margin-top: 10vw;
-  animation: float2 6s ease-in-out infinite;
+  animation: float2 5s ease-in-out infinite;
 }
 #prosvg {
   position: relative;
   height: 190px;
   margin-top: 6vw;
-  animation: float2 6s ease-in-out infinite;
+  animation: float2 4s ease-in-out infinite;
 }
 #cersvg {
   position: relative;
