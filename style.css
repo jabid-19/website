@@ -20,6 +20,50 @@ html {
   background: transparent;
 }
 
+/* ::-webkit-scrollbar {
+  width: 10px;
+  height: 50vh;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #b7e046;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #b30000;
+} */
+
+.progress-container {
+  transform: rotateZ(90deg);
+  position: fixed;
+  bottom: 210px;
+  right: -73px;
+
+  display: none;
+  width: 30vh;
+  height: 20px;
+  background: rgb(228, 225, 225);
+  /* background: #86d5f5; */
+  border-radius: 10px;
+}
+
+.progress-bar {
+  height: 20px;
+  background: #b7e046;
+  width: 0%;
+  border-radius: 10px;
+}
+
+.extra {
+  display: flex;
+}
+
 .upper {
   position: absolute;
   margin-bottom: 100px;
@@ -648,7 +692,8 @@ text a:focus {
   #con-svg,
   #cv-img,
   #about-svg,
-  .brain-svg {
+  .brain-svg,
+  #progress {
     display: none;
   }
 
@@ -724,7 +769,8 @@ text a:focus {
   #con-svg,
   #cv-img,
   #about-svg,
-  .brain-svg {
+  .brain-svg,
+  #progress {
     display: none;
   }
   .name {
