@@ -267,6 +267,8 @@ footer {
   animation: float2 4s ease-in-out infinite;
 }
 #skillsvg {
+  /* display: block; */
+  float: left;
   position: relative;
   height: 130px;
   margin-top: 10vw;
