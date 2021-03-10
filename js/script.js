@@ -73,7 +73,43 @@ const scene = new ScrollMagic.Scene({
 //   captionText.innerHTML = dots[slideIndex - 1].alt;
 // }
 
+
+
+// function left() {
+//   var element = document.getElementsByClassName("programming");
+//   var i;
+//   for (i = 0; i < element.length; i++) {
+//     element[i].classList.toggle("button-after");
+//   }
+// }
+// function right() {
+//   var element = document.getElementsByClassName("design");
+//   var i;
+//   for (i = 0; i < element.length; i++) {
+//     element[i].classList.toggle("button-after");
+//   }
+// }
+// function bottom() {
+//   var element = document.getElementsByClassName("others");
+//   var i;
+//   for (i = 0; i < element.length; i++) {
+//     element[i].classList.toggle("button-after");
+//   }
+// }
+
+
+
+
+
+
+
 $(document).ready(function () {
+
+  //  setInterval("left()", 1000);
+  //  setInterval("right()", 2000);
+  //  setInterval("bottom()", 3000);
+
+
   $("#left").hover(function () {
     var element = document.getElementsByClassName("programming");
     var i;
@@ -97,6 +133,8 @@ $(document).ready(function () {
       element[i].classList.toggle("button-after");
     }
   });
+
+
 
   //top button
   var mybutton = document.getElementById("myBtn");
@@ -141,5 +179,20 @@ $(document).ready(function () {
     document.getElementById("myBar").style.width = scrolled + "%";
   }
 
-  //mail
+  //eye
+
+
+});
+$(".move-area").mousemove(function (event) {
+  var eye = $(".eye");
+  var x = (eye.offset().left) + (eye.width() / 2);
+  var y = (eye.offset().top) + (eye.height() / 2);
+  var rad = Math.atan2(event.pageX - x, event.pageY - y);
+  var rot = (rad * (180 / Math.PI) * -1) + 180;
+  eye.css({
+    '-webkit-transform': 'rotate(' + rot + 'deg)',
+    '-moz-transform': 'rotate(' + rot + 'deg)',
+    '-ms-transform': 'rotate(' + rot + 'deg)',
+    'transform': 'rotate(' + rot + 'deg)'
+  });
 });
