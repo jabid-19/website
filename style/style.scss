@@ -66,6 +66,9 @@ body {
   overflow-x: hidden;
   font-family: "Poppins", sans-serif;
 }
+::selection {
+  background: #cdf168; /* WebKit/Blink Browsers */
+}
 html {
   overflow-x: hidden;
   scrollbar-width: none;
@@ -266,7 +269,7 @@ footer {
   position: relative;
   height: 130px;
   margin-top: 10vw;
-  animation: float2 5s ease-in-out infinite;
+  animation: float2 4s ease-in-out infinite;
 }
 #prosvg {
   position: relative;
