@@ -105,12 +105,12 @@ body {
 }
 
 ::-moz-selection {
-  background: #cdf168;
+  background: #dcf695;
   /* WebKit/Blink Browsers */
 }
 
 ::selection {
-  background: #cdf168;
+  background: #dcf695;
   /* WebKit/Blink Browsers */
 }
 
