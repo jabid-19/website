@@ -105,12 +105,12 @@ body {
 }
 
 ::-moz-selection {
-  background: #dcf695;
+  background: #b7e046;
   /* WebKit/Blink Browsers */
 }
 
 ::selection {
-  background: #dcf695;
+  background: #b7e046;
   /* WebKit/Blink Browsers */
 }
 
@@ -123,6 +123,10 @@ html {
 ::-webkit-scrollbar {
   width: 0px;
   background: transparent;
+}
+
+h2 {
+  color: #1daed3;
 }
 
 .progress-container {

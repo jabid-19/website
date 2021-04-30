@@ -67,7 +67,7 @@ body {
   font-family: "Poppins", sans-serif;
 }
 ::selection {
-  background: #dcf695; /* WebKit/Blink Browsers */
+  background: #b7e046; /* WebKit/Blink Browsers */
 }
 html {
   overflow-x: hidden;
@@ -77,6 +77,9 @@ html {
 ::-webkit-scrollbar {
   width: 0px;
   background: transparent;
+}
+h2 {
+  color: #1daed3;
 }
 .progress-container {
   transform: rotateZ(90deg);
