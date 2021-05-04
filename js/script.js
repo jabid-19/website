@@ -73,8 +73,6 @@ const scene = new ScrollMagic.Scene({
 //   captionText.innerHTML = dots[slideIndex - 1].alt;
 // }
 
-
-
 // function left() {
 //   var element = document.getElementsByClassName("programming");
 //   var i;
@@ -97,18 +95,10 @@ const scene = new ScrollMagic.Scene({
 //   }
 // }
 
-
-
-
-
-
-
 $(document).ready(function () {
-
   //  setInterval("left()", 1000);
   //  setInterval("right()", 2000);
   //  setInterval("bottom()", 3000);
-
 
   $("#left").hover(function () {
     var element = document.getElementsByClassName("programming");
@@ -133,8 +123,6 @@ $(document).ready(function () {
       element[i].classList.toggle("button-after");
     }
   });
-
-
 
   //top button
   var mybutton = document.getElementById("myBtn");
@@ -180,19 +168,17 @@ $(document).ready(function () {
   }
 
   //eye
-
-
 });
 $(".move-area").mousemove(function (event) {
   var eye = $(".eye");
-  var x = (eye.offset().left) + (eye.width() / 2);
-  var y = (eye.offset().top) + (eye.height() / 2);
+  var x = eye.offset().left + eye.width() / 2;
+  var y = eye.offset().top + eye.height() / 2;
   var rad = Math.atan2(event.pageX - x, event.pageY - y);
-  var rot = (rad * (180 / Math.PI) * -1) + 180;
+  var rot = rad * (180 / Math.PI) * -1 + 180;
   eye.css({
-    '-webkit-transform': 'rotate(' + rot + 'deg)',
-    '-moz-transform': 'rotate(' + rot + 'deg)',
-    '-ms-transform': 'rotate(' + rot + 'deg)',
-    'transform': 'rotate(' + rot + 'deg)'
+    "-webkit-transform": "rotate(" + rot + "deg)",
+    "-moz-transform": "rotate(" + rot + "deg)",
+    "-ms-transform": "rotate(" + rot + "deg)",
+    transform: "rotate(" + rot + "deg)",
   });
 });

@@ -296,15 +296,15 @@ footer {
   border-radius: 7px;
   text-align: center;
 } */
-#about-svg {
+#aboutSvg {
   height: 140px;
   animation: float2 3s ease-in-out infinite;
 }
-#con-svg {
+#conSvg {
   height: 140px;
   animation: float2 4s ease-in-out infinite;
 }
-#skillsvg {
+#uxSvg {
   /* display: block; */
   float: left;
   position: relative;
@@ -312,13 +312,13 @@ footer {
   margin-top: 10vw;
   animation: float2 5s ease-in-out infinite;
 }
-#prosvg {
+#proSvg {
   position: relative;
   height: 190px;
   margin-top: 6vw;
   animation: float2 4s ease-in-out infinite;
 }
-#cersvg {
+#cerSvg {
   position: relative;
   height: 190px;
   margin-top: 9vw;
@@ -558,7 +558,7 @@ button:focus {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-#uisvg {
+#uiSvg {
   position: relative;
   height: 190px;
   margin-top: 5vw;
@@ -783,9 +783,9 @@ text a:focus {
   .slogan {
     font-size: 3.3vw;
   }
-  #con-svg,
+  #conSvg,
   #cv-img,
-  #about-svg,
+  #aboutSvg,
   .brain-svg,
   #progress {
     display: none;
@@ -860,9 +860,9 @@ text a:focus {
   .slogan {
     font-size: 3.4vw;
   }
-  #con-svg,
+  #conSvg,
   #cv-img,
-  #about-svg,
+  #aboutSvg,
   .brain-svg,
   #progress {
     display: none;

@@ -73,6 +73,7 @@ html {
   overflow-x: hidden;
   scrollbar-width: none;
   scroll-behavior: smooth;
+  cursor: url("../img/cursor.png"), auto;
 }
 ::-webkit-scrollbar {
   width: 0px;
@@ -260,28 +261,28 @@ footer {
     animation: moveGradient 4s alternate infinite;
   }
 }
-#about-svg {
+#aboutSvg {
   height: 140px;
   animation: float2 3s ease-in-out infinite;
 }
-#con-svg {
+#conSvg {
   height: 140px;
   animation: float2 4s ease-in-out infinite;
 }
-#skillsvg {
+#uxSvg {
   float: left;
   position: relative;
   height: 130px;
   margin-top: 10vw;
   animation: float2 4s ease-in-out infinite;
 }
-#prosvg {
+#proSvg {
   position: relative;
   height: 190px;
   margin-top: 6vw;
-  animation: float2 4s ease-in-out infinite;
+  animation: float2 3s ease-in-out infinite;
 }
-#cersvg {
+#cerSvg {
   position: relative;
   height: 190px;
   margin-top: 9vw;
@@ -384,15 +385,30 @@ button {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
 }
-#uisvg {
+#uiSvg {
   position: relative;
   height: 190px;
   margin-top: 5vw;
   animation: float2 6s ease-in-out infinite;
 }
 .cer-div {
-  box-shadow: 2px 2px 8px 0 rgba(83, 83, 83, 0.25),
-    -0px -0px 4px 0 rgba(255, 255, 255, 0.3);
+  color: black;
+  background-color: rgba(206, 203, 203, 0);
+  padding: 10px;
+  border: solid 1px #5eb5d8;
+  border-radius: 15px;
+  margin: 15px 10px 25px 10px;
+  display: flex;
+  // box-shadow: 2px 2px 8px 0 rgba(83, 83, 83, 0.25),
+  //   -0px -0px 4px 0 rgba(255, 255, 255, 0.3);
+}
+
+.cer-div img {
+  color: black;
+  display: flex;
+  width: 200px;
+  float: left;
+  padding-right: 20px;
 }
 .project-card {
   margin-top: 25px;
@@ -445,6 +461,9 @@ button {
 .box1 {
   grid-area: box1;
 }
+// .box2 {
+//   grid-area: box2;
+// }
 .box3 {
   grid-area: box3;
 }
@@ -460,8 +479,8 @@ button {
   justify-content: center;
   align-items: center;
   cursor: pointer;
-  box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25),
-    -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+  // box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25),
+  //   -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
   transition: 0.1s;
   img {
     height: 100%;
@@ -610,9 +629,19 @@ text {
     opacity: 100%;
   }
 }
-#contact {
-  padding: 10px 0 10px;
+.experiences h2 {
+  text-align: center;
 }
+
+.experiences h3 {
+  margin-top: 80px;
+  padding-bottom: 10px;
+  color: #429abd;
+}
+
+// #contact {
+//   padding: 10px 0 10px;
+// }
 .contact-text {
   margin: 45px auto;
 }
@@ -685,16 +714,16 @@ input {
   .slogan {
     font-size: 3.3vw;
   }
-  #con-svg {
+  #conSvg {
     display: none;
   }
   #cv-img {
     display: none;
   }
-  #about-svg {
+  #aboutSvg {
     display: none;
   }
-  #cersvg {
+  #cerSvg {
     margin-top: 90px;
   }
   .brain-svg {
@@ -762,6 +791,9 @@ input {
       color: red;
     }
   }
+  .cer-div img {
+    width: 130px;
+  }
 }
 @media screen and (max-width: 1200px) {
   .plane {
@@ -772,16 +804,16 @@ input {
   .slogan {
     font-size: 3.4vw;
   }
-  #con-svg {
+  #conSvg {
     display: none;
   }
   #cv-img {
     display: none;
   }
-  #about-svg {
+  #aboutSvg {
     display: none;
   }
-  #cersvg {
+  #cerSvg {
     margin-top: 90px;
   }
   .brain-svg {
