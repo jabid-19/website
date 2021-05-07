@@ -201,8 +201,7 @@ h2 {
 }
 
 .avatar {
-  width: 125px;
-  height: 125px;
+  width: 120px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border: 5px white solid;
