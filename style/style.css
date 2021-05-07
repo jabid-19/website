@@ -105,13 +105,15 @@ body {
 }
 
 ::-moz-selection {
-  background: #b7e046;
+  background: #b5db4c;
   /* WebKit/Blink Browsers */
+  color: white;
 }
 
 ::selection {
-  background: #b7e046;
+  background: #b5db4c;
   /* WebKit/Blink Browsers */
+  color: white;
 }
 
 html {
