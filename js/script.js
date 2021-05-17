@@ -11,8 +11,10 @@ function sendMail(params) {
   });
 }
 
+// ----Scroll Animations----
 sal();
 
+// ----Plane----
 const flightPath = {
   curviness: 1.25,
   autoRotate: true,
@@ -45,69 +47,46 @@ const scene = new ScrollMagic.Scene({
   .setTween(tween)
   .addTo(controller);
 
-// function openModal() {
-//   document.getElementById("myModal").style.display = "block";
-// }
+// ----top button & progress bar----
+var mybutton = document.getElementById("myBtn");
+var progress = document.getElementById("progress");
+var w = window.innerWidth;
 
-// function closeModal() {
-//   document.getElementById("myModal").style.display = "none";
-// }
+window.onscroll = function () {
+  scrollFunction();
+  myFunction();
+};
 
-// var slideIndex = 1;
-// showSlides(slideIndex);
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+    if (w > 800) {
+      progress.style.display = "block";
+    } else {
+      progress.style.display = "none";
+    }
+  } else {
+    mybutton.style.display = "none";
+    progress.style.display = "none";
+  }
+}
 
-// function plusSlides(n) {
-//   showSlides((slideIndex += n));
-// }
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
 
-// function currentSlide(n) {
-//   showSlides((slideIndex = n));
-// }
+function myFunction() {
+  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  var height =
+    document.documentElement.scrollHeight -
+    document.documentElement.clientHeight;
+  var scrolled = (winScroll / height) * 100;
+  document.getElementById("myBar").style.width = scrolled + "%";
+}
 
-// function showSlides(n) {
-//   var i;
-//   var slides = document.getElementsByClassName("mySlides");
-//   var dots = document.getElementsByClassName("demo");
-//   var captionText = document.getElementById("caption");
-//   if (n > slides.length) {
-//     slideIndex = 1;
-//   }
-//   if (n < 1) {
-//     slideIndex = slides.length;
-//   }
-//   for (i = 0; i < slides.length; i++) {
-//     slides[i].style.display = "none";
-//   }
-//   for (i = 0; i < dots.length; i++) {
-//     dots[i].className = dots[i].className.replace(" active", "");
-//   }
-//   slides[slideIndex - 1].style.display = "block";
-//   dots[slideIndex - 1].className += " active";
-//   captionText.innerHTML = dots[slideIndex - 1].alt;
-// }
-
-// function left() {
-//   var element = document.getElementsByClassName("programming");
-//   var i;
-//   for (i = 0; i < element.length; i++) {
-//     element[i].classList.toggle("button-after");
-//   }
-// }
-// function right() {
-//   var element = document.getElementsByClassName("design");
-//   var i;
-//   for (i = 0; i < element.length; i++) {
-//     element[i].classList.toggle("button-after");
-//   }
-// }
-// function bottom() {
-//   var element = document.getElementsByClassName("others");
-//   var i;
-//   for (i = 0; i < element.length; i++) {
-//     element[i].classList.toggle("button-after");
-//   }
-// }
-
+// ----JQuery----
 $(document).ready(function () {
   //  setInterval("left()", 1000);
   //  setInterval("right()", 2000);
@@ -136,47 +115,4 @@ $(document).ready(function () {
       element[i].classList.toggle("button-after");
     }
   });
-
-  //top button
-  var mybutton = document.getElementById("myBtn");
-  var progress = document.getElementById("progress");
-  var w = window.innerWidth;
-
-  window.onscroll = function () {
-    scrollFunction();
-    myFunction();
-  };
-
-  function scrollFunction() {
-    if (
-      document.body.scrollTop > 20 ||
-      document.documentElement.scrollTop > 20
-    ) {
-      mybutton.style.display = "block";
-      if (w > 800) {
-        progress.style.display = "block";
-      } else {
-        progress.style.display = "none";
-      }
-    } else {
-      mybutton.style.display = "none";
-      progress.style.display = "none";
-    }
-  }
-
-  // When the user clicks on the button, scroll to the top of the document
-  function topFunction() {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
-  }
-
-  function myFunction() {
-    var winScroll =
-      document.body.scrollTop || document.documentElement.scrollTop;
-    var height =
-      document.documentElement.scrollHeight -
-      document.documentElement.clientHeight;
-    var scrolled = (winScroll / height) * 100;
-    document.getElementById("myBar").style.width = scrolled + "%";
-  }
 });
