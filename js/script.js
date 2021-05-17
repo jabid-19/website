@@ -1,3 +1,16 @@
+// -----Email-----
+function sendMail(params) {
+  var tempParams = {
+    name: document.getElementById("name").value,
+    mail: document.getElementById("mail").value,
+    message: document.getElementById("message").value,
+  };
+  emailjs.send("gmail", "template_ayg2t61", tempParams).then((res) => {
+    window.location.reload();
+    console.log("success", res.status);
+  });
+}
+
 sal();
 
 const flightPath = {
@@ -166,19 +179,4 @@ $(document).ready(function () {
     var scrolled = (winScroll / height) * 100;
     document.getElementById("myBar").style.width = scrolled + "%";
   }
-
-  //eye
-});
-$(".move-area").mousemove(function (event) {
-  var eye = $(".eye");
-  var x = eye.offset().left + eye.width() / 2;
-  var y = eye.offset().top + eye.height() / 2;
-  var rad = Math.atan2(event.pageX - x, event.pageY - y);
-  var rot = rad * (180 / Math.PI) * -1 + 180;
-  eye.css({
-    "-webkit-transform": "rotate(" + rot + "deg)",
-    "-moz-transform": "rotate(" + rot + "deg)",
-    "-ms-transform": "rotate(" + rot + "deg)",
-    transform: "rotate(" + rot + "deg)",
-  });
 });
